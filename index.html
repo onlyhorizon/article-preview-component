@@ -56,9 +56,14 @@
 
       shareIcon.addEventListener("click", showBox);
 
-      function showBox() {
+   /*   function showBox() {
         if(shareBox.classList.contains("visible")) { shareBox.classList.remove("visible") } 
           else { shareBox.classList.add("visible") }
+      } */
+
+      function showBox() {
+        shareBox.classList.toggle("visible")
+        shareIcon.classList.toggle("btn-color")
       }
     })
   </script>

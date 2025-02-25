@@ -85,7 +85,7 @@ h1 {
 	border-radius: 50%;
 }
 #share-icon {
-	background: var(--grey500);
+	background: var(--grey200);
 	color: var(--white);
 	width: 32px;
 	height: 32px;
@@ -129,6 +129,9 @@ h1 {
 }
 .visible {
 	display: flex !important;
+}
+.btn-color {
+	background: var(--grey500) !important;
 }
 @media (min-width: 320px) and (max-width: 480px) {
 	body {
